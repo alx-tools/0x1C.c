@@ -49,4 +49,6 @@ typedef struct rb_tree_s
 	rb_color_t color;
 } rb_tree_t;
 
+void binary_tree_print(const binary_tree_t *);
+
 #endif /* _BINARY_TREES_H_ */
